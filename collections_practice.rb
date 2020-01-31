@@ -68,11 +68,5 @@ def sum_array(array)
   end
   sum
 end 
-          #def sum_array_inject(array)
-          #array.inject do |sum,number| 
-          #sum + number
-          #end
-          #end
-end
 
 sum_array([11,4,7,8,9,100,134])
