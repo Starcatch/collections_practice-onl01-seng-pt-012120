@@ -72,3 +72,12 @@ end
 sum_array([11,4,7,8,9,100,134])
 
 
+def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end
